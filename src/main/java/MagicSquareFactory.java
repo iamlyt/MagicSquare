@@ -65,24 +65,3 @@ public class MagicSquareFactory {
     }
 
 }
-
-// conditions:
-// if moves outside of box -- jump to opposite edge
-// if on right, move to left
-// if on top, move to bottom
-// if a num is already there, go one row down -- same column
-/* ----------------------------------------------------------------------------- */
-// check if square if odd (we want odd)
-// then iterate over square to add numbers in
-// when it's the first number, put it in the median top row (middle of top row)
-// then implement condition:
-
-// - place first number in the median first row
-// -
-
-// lastly, check if diagonal, row, and column sums are SAME
-//if (square.readValue(row, col) > 0) {
-//
-//        square.placeValue(row + 1, col, i);
-//
-//        }
