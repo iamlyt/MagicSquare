@@ -6,7 +6,6 @@ public class Program {
 
         MagicSquareFactory msFactory = new MagicSquareFactory();
         System.out.println(msFactory.createMagicSquare(3));
-
 //        MagicSquare ms = new MagicSquare(3);
 //        ms.sumsOfRows();
     }
